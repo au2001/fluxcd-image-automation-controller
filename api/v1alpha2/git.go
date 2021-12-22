@@ -17,8 +17,8 @@ limitations under the License.
 package v1alpha2
 
 import (
+	sourcev1 "github.com/au2001/fluxcd-source-controller/api/v1beta1"
 	"github.com/fluxcd/pkg/apis/meta"
-	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
 )
 
 type GitSpec struct {
