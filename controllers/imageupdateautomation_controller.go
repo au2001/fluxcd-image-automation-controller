@@ -647,6 +647,9 @@ func fetch(ctx context.Context, path string, branch string, access repoAccess) e
 		[]string{refspec},
 		&libgit2.FetchOptions{
 			RemoteCallbacks: access.remoteCallbacks(ctx),
+			ProxyOptions: libgit2.ProxyOptions{
+				Type: libgit2.ProxyTypeAuto,
+			},
 		}, "",
 	)
 	if err != nil && libgit2.IsErrorCode(err, libgit2.ErrorCodeNotFound) {
