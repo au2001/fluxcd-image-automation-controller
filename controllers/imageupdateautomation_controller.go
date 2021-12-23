@@ -684,6 +684,9 @@ func push(ctx context.Context, path, branch string, access repoAccess) error {
 	}
 	err = origin.Push([]string{fmt.Sprintf("refs/heads/%s:refs/heads/%s", branch, branch)}, &libgit2.PushOptions{
 		RemoteCallbacks: callbacks,
+		ProxyOptions: libgit2.ProxyOptions{
+			Type: libgit2.ProxyTypeAuto,
+		},
 	})
 	if err != nil {
 		return libgit2PushError(err)

@@ -50,6 +50,7 @@ github.com/armon/go-radix v0.0.0-20180808171621-7fddfc383310/go.mod h1:ufUuZ+zHj
 github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a/go.mod h1:lB+ZfQJz7igIIfQNfa7Ml4HSf2uFQQRzpGGRXenZAgY=
 github.com/au2001/fluxcd-source-controller/api v0.20.2 h1:RGd25bk88zJkBL16iLY2p6otappqvbohFb4M81hWbZI=
 github.com/au2001/fluxcd-source-controller/api v0.20.2/go.mod h1:aykbqxQ08Olp1JsUsNLdU2WtWlYY9yPZDRqZCLVjyas=
+github.com/au2001/fluxcd-source-controller/api v0.20.3 h1:9AGNb1CwRYemYp2yGhy2zq6eC43iixxwO16U9SZUcbA=
 github.com/au2001/fluxcd-source-controller/api v0.20.3/go.mod h1:aykbqxQ08Olp1JsUsNLdU2WtWlYY9yPZDRqZCLVjyas=
 github.com/benbjohnson/clock v1.0.3/go.mod h1:bGMdMPoPVvcYyt1gHDf4J2KE153Yf9BuiUKYMaxlTDM=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=

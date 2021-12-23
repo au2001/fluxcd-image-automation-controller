@@ -139,6 +139,7 @@ github.com/au2001/fluxcd-source-controller v0.20.3/go.mod h1:unn4nGcMl0ew4Anvzvz
 github.com/au2001/fluxcd-source-controller/api v0.20.1/go.mod h1:aykbqxQ08Olp1JsUsNLdU2WtWlYY9yPZDRqZCLVjyas=
 github.com/au2001/fluxcd-source-controller/api v0.20.2 h1:RGd25bk88zJkBL16iLY2p6otappqvbohFb4M81hWbZI=
 github.com/au2001/fluxcd-source-controller/api v0.20.2/go.mod h1:aykbqxQ08Olp1JsUsNLdU2WtWlYY9yPZDRqZCLVjyas=
+github.com/au2001/fluxcd-source-controller/api v0.20.3 h1:9AGNb1CwRYemYp2yGhy2zq6eC43iixxwO16U9SZUcbA=
 github.com/au2001/fluxcd-source-controller/api v0.20.3/go.mod h1:aykbqxQ08Olp1JsUsNLdU2WtWlYY9yPZDRqZCLVjyas=
 github.com/au2001/git2go/v31 v31.7.6 h1:HvPxBomfnRgIve+6fwrkSC2waCotTuUGPXKRiLOU788=
 github.com/au2001/git2go/v31 v31.7.6/go.mod h1:H7b3vEtInRIgXcb4Zlq62FAkwqDgFMprOSiKJql8RQ4=
