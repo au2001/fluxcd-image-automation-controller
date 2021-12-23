@@ -16,13 +16,13 @@ require (
 	github.com/fluxcd/pkg/runtime v0.12.1
 	github.com/fluxcd/pkg/ssh v0.1.0
 	// If you bump this, change SOURCE_VER in the Makefile to match
-	github.com/au2001/fluxcd-source-controller v0.20.2
+	github.com/au2001/fluxcd-source-controller v0.20.3
 	github.com/au2001/fluxcd-source-controller/api v0.20.2
 	github.com/go-git/go-billy/v5 v5.3.1
 	github.com/go-git/go-git/v5 v5.4.2
 	github.com/go-logr/logr v0.4.0
 	github.com/google/go-containerregistry v0.6.0
-	github.com/libgit2/git2go/v31 v31.6.1
+	github.com/au2001/git2go/v31 v31.7.6
 	github.com/onsi/ginkgo v1.16.4
 	github.com/onsi/gomega v1.15.0
 	github.com/otiai10/copy v1.7.0

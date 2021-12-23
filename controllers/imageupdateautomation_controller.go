@@ -30,8 +30,8 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 
+	libgit2 "github.com/au2001/git2go/v31"
 	gogit "github.com/go-git/go-git/v5"
-	libgit2 "github.com/libgit2/git2go/v31"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	securejoin "github.com/cyphar/filepath-securejoin"
