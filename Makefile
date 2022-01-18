@@ -21,7 +21,7 @@ CACHE := cache
 
 # Version of the source-controller from which to get the GitRepository CRD.
 # Change this if you bump the source-controller/api version in go.mod.
-SOURCE_VER ?= v0.20.1
+SOURCE_VER ?= v0.20.4
 
 # Version of the image-reflector-controller from which to get the ImagePolicy CRD.
 # Change this if you bump the image-reflector-controller/api version in go.mod.
@@ -96,7 +96,7 @@ ${TEST_CRDS}/gitrepositories.yaml: ${CACHE}/gitrepositories_${SOURCE_VER}.yaml
 
 ${CACHE}/gitrepositories_${SOURCE_VER}.yaml:
 	mkdir -p ${CACHE}
-	curl -s --fail https://raw.githubusercontent.com/fluxcd/source-controller/${SOURCE_VER}/config/crd/bases/source.toolkit.fluxcd.io_gitrepositories.yaml \
+	curl -s --fail https://raw.githubusercontent.com/au2001/fluxcd-source-controller/${SOURCE_VER}/config/crd/bases/source.toolkit.fluxcd.io_gitrepositories.yaml \
 		-o ${CACHE}/gitrepositories_${SOURCE_VER}.yaml
 
 ${CACHE}/imagepolicies_${REFLECTOR_VER}.yaml:

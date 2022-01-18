@@ -31,8 +31,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/envtest/printer"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
+	sourcev1 "github.com/au2001/fluxcd-source-controller/api/v1beta1"
 	imagev1_reflect "github.com/fluxcd/image-reflector-controller/api/v1beta1"
-	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
 
 	imagev1 "github.com/fluxcd/image-automation-controller/api/v1beta1"
 	// +kubebuilder:scaffold:imports

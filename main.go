@@ -28,6 +28,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	ctrlmetrics "sigs.k8s.io/controller-runtime/pkg/metrics"
 
+	sourcev1 "github.com/au2001/fluxcd-source-controller/api/v1beta1"
 	imagev1_reflect "github.com/fluxcd/image-reflector-controller/api/v1beta1"
 	"github.com/fluxcd/pkg/runtime/client"
 	"github.com/fluxcd/pkg/runtime/events"
@@ -36,7 +37,6 @@ import (
 	"github.com/fluxcd/pkg/runtime/metrics"
 	"github.com/fluxcd/pkg/runtime/pprof"
 	"github.com/fluxcd/pkg/runtime/probes"
-	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
 
 	imagev1 "github.com/fluxcd/image-automation-controller/api/v1beta1"
 	// +kubebuilder:scaffold:imports
